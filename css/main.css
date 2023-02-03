@@ -1,0 +1,31 @@
+body {
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   color: #424242;
+}
+
+/* Utility */
+.none {
+   display: none !important;
+}
+
+.visually-hidden {
+   display: block;
+   width: 0px;
+   height: 0px;
+   position: absolute;
+   margin-left: -10000px;
+   opacity: 0;
+   font-size: 0;
+   visibility: hidden;
+   background: transparent;
+}
+
+/* Grid */
+.container {
+   width: 1400px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+}
